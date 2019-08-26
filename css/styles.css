@@ -1,0 +1,56 @@
+
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: Gill sans;
+  font-size: 10px;
+  color: white;
+  background-color: black
+}
+
+h1 {
+  margin: 0px;
+  padding: 20px;
+  background-color: #34B4de;
+  color: #ed46dd;
+
+}
+
+h2 {
+  margin: 0px;
+  padding: 10px;
+  background-color: #ed46dd;
+  color: white;
+
+}
+
+#menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: #CCCCCC;
+  overflow: hidden;
+}
+
+#menu > li {
+  float: left;
+  padding: 20px;
+}
+
+#menu > li:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #999999;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.formElement {
+  width: 200px;
+  padding: 5px 10px;
+}

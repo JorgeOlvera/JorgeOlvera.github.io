@@ -1,0 +1,40 @@
+
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: Verdana;
+  font-size: 13px;
+  color: #6d6d6d;
+}
+
+h1 {
+  /* este es mi header */
+  margin: 0px;
+  padding: 20px;
+  background-color: #55B3C5;
+  color: #FFFFFF;
+
+}
+
+#menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: #CCCCCC;
+  overflow: hidden;
+}
+
+#menu > li {
+  float: left;
+  padding: 20px;
+}
+
+#menu > li:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #999999;
+}
+
+.formElement {
+  width: 200px;
+  padding: 5px 10px;
+}
