@@ -8,7 +8,7 @@ router.get('/', function(req, res){
     })
 })
 
-router.get('/login', function(req, res){
+router.get('/createUser', function(req, res){
     res.send({
         greeting: 'Hola mundo'
     })
